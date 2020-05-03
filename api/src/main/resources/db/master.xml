@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+	  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="202003091325" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog\202005021603_config_default_schema.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202005021604" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog\202005021604_create_table_cliente.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202005021605" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog\202005021605_create_table_ordem_servico.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202005021606" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog\202005021606_create_table_comentario.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>

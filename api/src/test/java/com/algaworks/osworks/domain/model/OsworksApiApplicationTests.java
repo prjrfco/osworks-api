@@ -1,4 +1,4 @@
-package com.algaworks.osworks.api;
+package com.algaworks.osworks.domain.model;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

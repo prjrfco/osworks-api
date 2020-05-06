@@ -21,4 +21,8 @@
         <sqlFile path="changelog\202005021606_create_table_comentario.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="202005051651" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog\202005051651_insert_in_all_tables.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
 </databaseChangeLog>

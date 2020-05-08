@@ -12,7 +12,7 @@ public class OrdemServicoModel {
 
     private Long id;
 
-    private Cliente cliente;
+    private ClienteResumoModel cliente;
 
     private String descricao;
 

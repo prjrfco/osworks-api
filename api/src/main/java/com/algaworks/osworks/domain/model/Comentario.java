@@ -1,10 +1,13 @@
 package com.algaworks.osworks.domain.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.time.OffsetDateTime;
 
 @Entity
 @Table(name = "comentario")
+@Data
 public class Comentario {
 
     @Id

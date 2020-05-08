@@ -7,6 +7,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
+//Classe usada para entrada de dados na API
 @Data
 public class OrdemServicoInput {
 

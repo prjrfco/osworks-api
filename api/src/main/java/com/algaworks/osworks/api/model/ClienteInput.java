@@ -1,23 +1,15 @@
-package com.algaworks.osworks.domain.model;
+package com.algaworks.osworks.api.model;
 
-import com.algaworks.osworks.domain.ValidationGroups;
 import lombok.Data;
 
-import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-@Entity
-@Table(name = "cliente")
+//Classe usada para entrada de dados na API
 @Data
-public class Cliente {
-
-//    @NotNull(groups = ValidationGroups.ClienteId.class)
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class ClienteInput {
 
     @NotBlank
     @Size(max = 60)
